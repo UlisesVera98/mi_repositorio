@@ -114,11 +114,10 @@ img {
 
 @media all and (max-width: 1024px) and (max-width: 576px) {
   .contenedorImagenes {
-    width: 100%;
-    display: inline;
-    margin: auto;
+    width: 60px !important;
+    display: inline !important;
+    margin: auto !important;
     margin-top: 35px;
-    width: 100%;
   }
   .titulo {
     text-align: center !important;
