@@ -1,43 +1,128 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Quienes somos?</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body class="fondo3">
-    <h1 class="titulos">¿Quienes somos?</h1>
-    <nav>
-        <a class="boton" href="../index.html">Inicio</a>
-        <ul>
-            <li class="listas"><a href="../html/contacto.html">Contacto</a></li>
-            <li class="listas"><a href="../html/Quienes somos.html">¿Quienes somos?</a></li>
-            <li class="listas"><a href="../html/Eventos.html">Eventos</a></li>
-            <li class="listas"><a href="../html/Galeria.html">Galeria</a></li>
-            <li class="listas"><a href="../html/Videos.html">Videos</a></li>
-        </ul>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="./index.html">Magritte</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="./quienes somos.html">¿Quienes
+                        Somos?</a>
+                    <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+                    <a class="nav-link text-white" href="./eventos.html">Eventos</a>
+                    <a class="nav-link text-white" href="./galeria.html">Galeria</a>
+                    <a class="nav-link text-white" href="./videos.html">Videos</a>
+
+                </div>
+            </div>
+        </div>
     </nav>
-    <br><br>
-    <p>
-        Somos una página, que nos dedicamos a subir informacion sobre bandas.
-        Aqui podrás encontrar todo sobre tus bandas favoritas, ya sea: información, eventos,etc.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt odit eum, minima ea provident perferendis in
-        repellendus. Laborum maxime tenetur repudiandae id autem, laboriosam blanditiis reprehenderit in. Autem tempora
-        voluptatem ad consequatur tempore animi, excepturi cum quaerat aspernatur? Modi nesciunt ducimus fugit
-        aspernatur magnam quae cum, voluptatibus ratione animi accusamus distinctio provident vero voluptate, rerum,
-        perspiciatis porro vitae non sunt saepe dignissimos repellat adipisci odit quis. Dicta, porro cupiditate. Iste!
+    <div class="container-fluid">
+        <section class="w-75 text-center">
+            <h1 class="p-3 text-white fs-1">
+                ¿Quienes Somos?
+            </h1>
+            <div class="row">
+                <div class="col md-4 col xs-2 container-fluid">
+                    <p class="p-5 text-center text-white fs-6"> Nosotros somos una banda de rock alternativo, llevamos
+                        en
+                        activo 8 años, nos dedicamos a hacer temas propios, además de covers. La banda está compuesta
+                        por 4 integrantes, a continuación se dejará una breve descripción de cada uno.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./Images/8LxNnPH.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">GUITARRA</h5>
+                        <p class="card-text">Ismael Alvarez, 35 años, guitarrista y segunda voz hace mas de 15 años, sus
+                            influencias musicales son el rock nacional. Se unió a Magritte hace 2 años.
+                            </p>
 
-    </p>
-    <br><br>
-    <br><br>
-    <footer class="derechos">
-        Esta sitio web contiene derechos de autor.
-    </footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./Images/istockphoto-1279654034-170667a.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">VOCALISTA Y GUITARRISTA</h5>
+                        <p class="card-text"> Ulises Vera, 23 años, guitarrista y vocalista desde hace 6 años, sus influencias musicales son el pop rock, pop punk, grunge y rock alternativo. Se unió a Magritte hace 2 años.
+                           </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./Images/bass.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Bajo</h5>
+                        <p class="card-text"> Gerard Lopez, 25 años, es bajista hace mas de 12 años, sus
+                            influencias musicales son el rock nacional, punk rock y el pop. Miembro fundador de
+                            Magritte.
+                            o</p>
 
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./Images/record-e-drums-960x600-1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">BATERIA</h5>
+                        <p class="card-text">Lucas Martín, 27 años, bajista, guitarrista y lider de Magritte, sus influencias musicales son el metal, rock alternativo y punk. Miembro fundado de Magritte.
+                           .</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-light text-center text-lg-start">
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(196, 9, 9, 0.384);">
+                    © 2022 Copyright: Este sitio contiene derechos de autor.
+        
+                </div>
+                <!-- Copyright -->
+            </footer>
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>

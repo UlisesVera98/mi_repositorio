@@ -1,59 +1,77 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
     <title>Galeria</title>
-    <link rel="stylesheet" href="../style.css">
-
 </head>
 
-<body class="galeria">
-    <h1 class="titulos">Galeria</h1>
-    <nav>
-        <a class="boton" href="../index.html">Inicio</a>
-        <ul>
-            <li class="listas"><a href="../html/contacto.html">Contacto</a></li>
-            <li class="listas"><a href="../html/Quienes somos.html">¿Quienes somos?</a></li>
-            <li class="listas"><a href="../html/Eventos.html">Eventos</a></li>
-            <li class="listas"><a href="../html/Galeria.html">Galeria</a></li>
-            <li class="listas"><a href="../html/Videos.html">Videos</a></li>
-        </ul>
+<body class="bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="./index.html">Magritte</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="./quienes somos.html">¿Quienes
+                        Somos?</a>
+                    <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+                    <a class="nav-link text-white" href="./eventos.html">Eventos</a>
+                    <a class="nav-link text-white" href="./galeria.html">Galeria</a>
+                    <a class="nav-link text-white" href="./videos.html">Videos</a>
+
+                </div>
+            </div>
+        </div>
     </nav>
+    <div class="p-5 img-fluid contenedorImagenes">
 
-    <div class="contenedorImagenes">
-
-        <div class="gridItem"><img src="../imagenes/metallica.jpg" alt="foto de metallica">
+        <div class="gridItem"><img class="img-hover" src="Images/metallica.jpg" alt="foto de metallica">
         </div>
 
-        <div class="gridItem"><img src="../imagenes/green-day-1200x800.jpg" alt="foto de green day">
+        <div class="gridItem"><img class="img-hover" src="Images/green-day-1200x800.jpg" alt="foto de green day">
         </div>
 
-        <div class="gridItem"><img src="../imagenes/LinkinPark2001-Edit.jpg" alt="foto de linkin park"></div>
+        <div class="gridItem"><img class="img-hover" src="Images/LinkinPark2001-Edit.jpg" alt="foto de linkin park"></div>
 
-        <div class="gridItem"><img src="../imagenes/axel-rose-dance.gif" alt="axl rose"></div>
+        <div class="gridItem"><img class="img-hover" src="Images/axel-rose-dance.gif" alt="axl rose"></div>
 
-        <div class="gridItem"><img src="../imagenes/corey-taylor-slipknot-1024x555.jpg" alt="slipknot"></div>
+        <div class="gridItem"><img class="img-hover" src="Images/corey-taylor-slipknot-1024x555.jpg" alt="slipknot"></div>
 
-        <div class="gridItem"><img src="../imagenes/2021-05-07-far-coldplay-cadena-100jpg.jpg" alt="coldplay"></div>
+        <div class="gridItem"><img class="img-hover" src="Images/2021-05-07-far-coldplay-cadena-100jpg.jpg" alt="coldplay"></div>
 
-        <div class="gridItem"><img src="../imagenes/descarga (1).jpg" alt="spinetta"></div>
+        <div class="gridItem"><img class="img-hover" src="Images/descarga (1).jpg" alt="spinetta"></div>
 
-        <div class="gridItem"><img src="../imagenes/nirvana-nastylittlemancom-kkzF--1200x630@abc.jpg" alt="Nirvana">
+        <div class="gridItem"><img class="img-hover" src="Images/nirvana-nastylittlemancom-kkzF--1200x630@abc.jpg" alt="Nirvana">
         </div>
 
-        <div class="gridItem"><img src="../imagenes/images.jpg" height=alt="blink182"></div>
+        <div class="gridItem"><img class="img-hover" src="Images/images.jpg" height=alt="blink182"></div>
     </div>
-    <footer class="derechos">
 
-        Esta sitio web contiene derechos de autor.
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(196, 9, 9, 0.384);">
+            © 2022 Copyright: Este sitio contiene derechos de autor.
+
+        </div>
+        <!-- Copyright -->
     </footer>
 
 
 
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

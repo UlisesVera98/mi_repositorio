@@ -1,0 +1,276 @@
+.contenedorImagenes {
+  width: 70%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 10px 10px;
+}
+
+.gridItem {
+  height: 300px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (max-width: 1900px) {
+  .contenedorImagenes {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 10px 10px;
+    margin: auto;
+    width: 100%;
+  }
+  li {
+    display: none;
+  }
+  .fondo1 {
+    background-size: contain;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .contenedorImagenes {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+  }
+  div.contenedor {
+    width: 150px !important;
+    height: 180px !important;
+    padding-left: 20px;
+    float: left !important;
+    -webkit-transition: height .5s !important;
+  }
+  .titulo {
+    text-align: center;
+    margin-right: 50px;
+    font-size: 90px !important;
+    color: #20dff8 !important;
+  }
+  .fondo1 {
+    background-color: #2b313d !important;
+    background-image: none !important;
+  }
+  li {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .contenedorImagenes {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+  }
+  .titulo {
+    font-size: 80px;
+  }
+  div.contenedor {
+    width: 180px !important;
+    height: 220px !important;
+    float: left !important;
+    -webkit-transition: height .5s !important;
+  }
+  p.texto {
+    font-size: 1.2em;
+    color: white;
+    text-align: center !important;
+    margin: auto !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.6 !important;
+    -webkit-transition: padding-top .5s !important;
+  }
+  div.contenedor:hover {
+    height: 265px !important;
+  }
+  div.contenedor:hover p.texto {
+    padding-top: 30px !important;
+  }
+  .headerI {
+    margin: 100px auto !important;
+    width: 1200px !important;
+    height: 230px !important;
+  }
+  .fondo1 {
+    background-size: cover !important;
+  }
+  li {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1024px) and (max-width: 576px) {
+  .contenedorImagenes {
+    width: 100%;
+    display: inline;
+    margin: auto;
+    margin-top: 35px;
+    width: 100%;
+  }
+  .titulo {
+    text-align: center !important;
+    font-size: 170px !important;
+    color: #96082c !important;
+  }
+  .fondo1 {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  div.contenedor {
+    display: none !important;
+  }
+  li {
+    text-align: center !important;
+    font-size: 100px !important;
+    display: block !important;
+    background-color: #030303 !important;
+    color: #0eac84 !important;
+    margin-top: 100px;
+    padding-right: 45px !important;
+    padding-top: 40px !important;
+  }
+  a {
+    color: #d16c0e !important;
+  }
+}
+
+@media all and (max-width: 1024px) and (max-width: 320px) {
+  .contenedorImagenes {
+    display: inline;
+    margin: auto;
+    margin-top: 35px;
+    width: 100%;
+  }
+  .li {
+    text-align: center !important;
+    font-size: 40px !important;
+    display: inline-block !important;
+    color: #0eac84 !important;
+    margin-top: 220px !important;
+    margin-right: 10px !important;
+    padding-right: 40px !important;
+    padding-top: 40px !important;
+  }
+  .fondo1 {
+    margin-left: 1px !important;
+    width: 100% !important;
+    background-color: #350101 !important;
+  }
+  .titulo {
+    text-align: center !important;
+    color: goldenrod !important;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  a {
+    color: gold !important;
+  }
+}
+
+.img-hover {
+  -webkit-box-shadow: 0px 1px 10px black;
+          box-shadow: 0px 1px 10px black;
+  cursor: default;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.img-hover:hover {
+  -webkit-box-shadow: 5px 5px 20px black;
+          box-shadow: 5px 5px 20px black;
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+div.contenedor {
+  width: 200px;
+  height: 230px;
+  float: left;
+  -webkit-transition: height .5s;
+}
+
+.icono {
+  display: block;
+  margin: 50px auto;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  -webkit-border-radius: 50%;
+}
+
+p.texto {
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.6;
+  -webkit-transition: padding-top .5s;
+}
+
+div.contenedor:hover {
+  height: 265px;
+}
+
+div.contenedor:hover p.texto {
+  padding-top: 30px;
+}
+
+div#color1 {
+  background-color: #BD8D3A;
+}
+
+div#color2 {
+  background-color: #C5C750;
+}
+
+div#color3 {
+  background-color: #BD413A;
+}
+
+div#color4 {
+  background-color: #2B8AC4;
+}
+
+div#color5 {
+  background-color: #842F8F;
+}
+
+.headerI {
+  margin: 100px auto;
+  width: 1200px;
+  height: 230px;
+}
+
+.fondo1 {
+  margin-left: 70px;
+  margin-top: 20px;
+  background-image: url(https://data.1freewallpapers.com/download/concert-performance-smoke-light-crowd-music.jpg);
+  background-size: cover;
+}
+
+.titulo {
+  margin: auto;
+  text-align: center;
+  margin-right: 150px;
+  margin-bottom: 170px;
+  font-size: 90px;
+  color: #e5ff00;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
